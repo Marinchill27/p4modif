@@ -1658,7 +1658,11 @@ mark {
 }
 
 .text-center {
-    text-align: center
+    text-align: center;
+}
+
+.text-center:hover{/*modif taille agence la panthère*/
+    font-size: 16px;
 }
 
 .text-justify {
@@ -3139,7 +3143,7 @@ output {
 .form-control {
     display: block;
     width: 100%;
-    height: 34px;
+    height: 48px;/*modif taille*/
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.42857143;
