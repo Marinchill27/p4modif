@@ -1663,6 +1663,12 @@ mark {
 
 .text-center:hover{/*modif taille agence la panthère*/
     font-size: 16px;
+    
+}
+
+.text-center-white{/* modif couleur ecriture */
+    color: #000;
+
 }
 
 .text-justify {

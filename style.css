@@ -736,7 +736,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: white!important;/*modif couleur*/
 }
 
 .portfolio-thumb {
@@ -775,14 +775,14 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;/*modif couleur*/
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
     background: linear-gradient(#F3976C, #ff8279);
     box-shadow: 5px 10px 20px 5px rgb(160, 158, 154);
-    color: #FFFFFF!important;
+    color: black!important;/*modif couleur*/
 }
 
 .btn-atomic-tangerine:hover {
