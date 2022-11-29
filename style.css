@@ -782,7 +782,7 @@ h4 {
     background: #F3976C;
     background: linear-gradient(#F3976C, #ff8279);
     box-shadow: 5px 10px 20px 5px rgb(160, 158, 154);
-    color: black!important;/*modif couleur*/
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
