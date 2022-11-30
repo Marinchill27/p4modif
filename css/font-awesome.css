@@ -707,7 +707,8 @@
 }
 
 .fa-twitter-square:before {
-    content: "\f081"
+    content: "\f081";
+    color:black
 }
 
 .fa-facebook-square:before {
