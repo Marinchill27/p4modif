@@ -652,7 +652,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 .container {
@@ -737,9 +737,9 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: white!important;
-}
+/*.white {
+    color: white!important;modif couleur
+}....................................................................................................................*/
 
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -777,7 +777,7 @@ h4 {
 }
 
 .tc-white {
-    color: white!important;/*modif couleur*/
+    color:black!important;/*modif couleur*/
 }
 
 .btn-atomic-tangerine {
@@ -828,6 +828,7 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+
 
 
 @media (max-width: 1024px) {
