@@ -285,6 +285,7 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    color: white; /*modif couleur titre */
 }
 
 .navbar {
@@ -652,7 +653,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: black!important;
+   /* color: black!important; mit en commentaire .....................................*/
 }
 
 .container {
@@ -713,9 +714,9 @@ h2 {
 h3 {
     font-size: 20px;
     font-style: italic;
-    /*text-transform: uppercase;
-    font-weight: 600;*/
-    color: #333333!important; 
+    /*text-transform: uppercase;*/
+    font-weight: 600;
+    /*color: #333333!important; .....................................................................*/
 }
 
 .med-width-whitespace {
@@ -724,13 +725,18 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
+/*h1 {
+    color: #333333!important;.......................................................
+}*/
+.col-sm-12 h1{
+    color: #000000;/*modif couleur titre et paragraphe (ci-dessous) */
 }
-
-h4 {
-    color: #333333!important;
+.col-sm-12 p{
+    color: #000000;
 }
+/*h4 {
+    color: #333333!important;
+}................................................................................................*/
 
 .icons {
     margin-bottom: 14px;
@@ -776,9 +782,10 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
-    color:black!important;/*modif couleur*/
-}
+
+/*.tc-white {
+    color:black!important;modif couleur
+}........................................................................................................................*/
 
 .btn-atomic-tangerine {
     background: #F3976C;
@@ -794,6 +801,7 @@ h4 {
 
 .ltc-white {
     color: #FFFFFF!important;
+    font-size: large;
 }
 
 .ltc-white:hover {
@@ -828,7 +836,6 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
-
 
 
 @media (max-width: 1024px) {
